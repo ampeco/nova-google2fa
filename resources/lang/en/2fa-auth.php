@@ -36,6 +36,7 @@ return [
         'confirm' => 'Confirm',
         'recovery_login' => 'Log in using recovery code?',
         'reset' => 'Reset two-factor auth',
+        'logout' => 'Return to Login Options',
     ],
 
     'fields' => [

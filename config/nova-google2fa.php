@@ -48,5 +48,7 @@ return [
     'app_store_links' => [
         'android' => 'https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en&gl=US',
         'ios' => 'https://apps.apple.com/lv/app/google-authenticator/id388497605',
-    ]
+    ],
+
+    'logout_route_name' => 'nova.logout',
 ];

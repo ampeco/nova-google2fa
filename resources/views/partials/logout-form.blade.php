@@ -2,7 +2,8 @@
     $withSubmitButton = $withSubmitButton ?? false;
 @endphp
 
-<form id="form-logout" method="POST" action="{{ route(config('nova-google2fa.logout_route_name')) }}">
+<form id="form-logout" method="POST" action="{{ route(config('nova-google2fa.logout_route_name')) }}"
+      class="my-8 flex flex-col md:flex-row md:items-center justify-center space-y-2 md:space-y-0 space-x-3">
     @csrf
     @if ($withSubmitButton)
         <button type="submit"

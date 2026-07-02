@@ -49,7 +49,7 @@ class Google2fa
 
             $user2faModel::create([
                 'user_id' => $user->id,
-                'google2fa_secret' => $google2fa->generateSecretKey(),
+                'google2fa_secret' => $google2fa->generateSecretKey(16),
                 'recovery' => $recoveryHashes,
             ]);
 
